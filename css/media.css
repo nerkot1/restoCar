@@ -1,0 +1,166 @@
+/* === DESKTOP FIRST === */
+
+/* xl <= Extra extra large (xxl) */
+@media (max-width : 1400px) {
+	
+}
+
+/* lg <= Extra large (xl) */
+@media (max-width : 1200px) {
+	.text {
+		word-spacing: 10px;
+		padding: 7px 7px 8px;
+		font-size: 15px;
+	}
+	
+	
+
+}
+
+/* md <= Large (lg) */
+@media (max-width : 992px) {
+	.navbar {
+		position: absolute;
+	}
+	.text {
+		visibility: hidden;
+	}
+	.img {
+		visibility: hidden;
+	}
+	.menu-toggle {
+		right: 20px;
+		visibility: visible;
+	}
+	.navbar_link {
+		background-color: var(--deep);
+		width: 120px;
+		position: absolute;
+		right: 60px;
+		visibility: hidden;
+		margin-top: 5px;
+	}
+	.text_link {
+		
+		display: block;
+		padding: 10px 15px;
+		border-bottom: 1px solid rgba(255,255,255, .05);
+		color: rgba(255,255,255, .5);
+		border-radius: 0;
+		line-height: 1.5;
+		visibility: hidden;
+	}
+	.text_link__active {
+		visibility: visible;
+	}
+	.text_link:hover {
+		border-radius: 0;
+	}
+	.text__active {
+		border-radius: 0;
+	}
+	.RestoCAR {
+		text-align: center;
+		position: relative;
+		right: 0;
+	}
+	.restoCar {
+		text-align: center;
+		left: 0;
+	}
+	.bloks {
+		padding: 10px 10px 20px;
+	}
+	.auto {
+		visibility: hidden;
+	}
+	
+}
+
+/* sm <= Medium (md) */
+@media (max-width : 768px) {
+	.navbar {
+		border-bottom: 0px solid black;
+		
+	}
+	.work {
+		padding: 20px 0 100px;
+	}
+	.bloks {
+		position: relative;
+		margin-top: 20px;
+	}
+	.blok {
+		margin-top: -60px;
+	}
+	.sers h5 {
+		font-size: 12px;
+	}
+	
+	
+}
+
+/* xs <= Small (sm) */
+@media (max-width : 576px) {
+	.end {
+		right: 0px;
+	}
+	.end-social {
+		left: 0px;
+	}
+}
+@media (max-width : 420px) {
+	.text-slide p {
+		width: 96.5%;	
+	}
+	.sers-right {
+		margin-left: 0px;
+	}
+	
+}
+@media (min-height : 1080px) {
+	.img-slide {
+		height: 82vh;
+	}
+	.sers h5 {
+		font-size: 10px;
+	}
+	
+}
+
+/* === MOBILE FIRST === */
+
+/* Custom (xs) */
+@media (min-width : 0) {
+
+}
+
+/* Small (sm) */
+@media (max-height : 550px) {
+	.text-slide {
+		margin-top: 140px;
+	}
+}
+
+/* Medium (md) */
+@media (min-width : 768px) {
+
+}
+
+/* Large (lg) */
+@media (min-width : 992px) {
+
+}
+
+/* Extra large (xl) */
+@media (min-width : 1200px) {
+
+}
+
+/* Extra extra large (xxl) */
+@media (min-width : 1400px) {
+	.RestoCAR p {
+		margin-top: -10px;
+	}
+	
+}
